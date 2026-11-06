@@ -49,6 +49,7 @@
 
 ```bash
 fastboot devices
+fastboot erase dtbo
 fastboot flash boot_a boot.img
 fastboot flash boot_b boot.img
 fastboot -S 100M flash userdata kupfer-enchilada-plasma-mobile.img
